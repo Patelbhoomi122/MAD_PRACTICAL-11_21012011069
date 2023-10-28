@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="33dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView_name"
+                android:text="Bhoomi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="17dp"
+                android:text="+919313049926"
+                android:id="@+id/textView_no"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="32dp"
+                android:text="patelbhoomi@gmail.com"
+                android:id="@+id/textView_email"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="48dp"
+                android:text="Bayad-383330"
+                android:id="@+id/textView_address"/>
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button"
+
+                style="?materialIconButtonFilledStyle"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                app:icon="@drawable/baseline_person_24"
+                app:iconSize="40dp"
+                app:iconGravity="start"/>
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="8dp"
+                app:icon="@drawable/baseline_location_on_24"
+                app:iconSize="40dp"
+                app:iconGravity="start"
+                style="?materialIconButtonFilledStyle"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
