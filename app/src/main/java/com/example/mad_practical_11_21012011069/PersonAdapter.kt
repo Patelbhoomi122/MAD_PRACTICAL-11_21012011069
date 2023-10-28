@@ -23,6 +23,7 @@ class PersonAdapter(val context:Context, val PersonArray :ArrayList<Person>):Rec
 
     override fun getItemCount(): Int {
         return PersonArray.size
+
     }
 
     override fun onBindViewHolder(holder: PersonViewHolder, position: Int) {

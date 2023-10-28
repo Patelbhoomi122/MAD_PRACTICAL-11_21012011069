@@ -1,5 +1,6 @@
 package com.example.mad_practical_11_21012011069
 
+
 class PersonTable {
     companion object{
         val TABLE_NAME = "person"

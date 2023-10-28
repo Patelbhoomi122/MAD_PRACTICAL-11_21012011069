@@ -12,6 +12,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 import com.example.mad_practical_11_21012011069.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 
+
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
